@@ -1,0 +1,49 @@
+.project__card {
+    display: flex;
+    grid-template: 34px;
+    align-items: center;
+
+}
+
+.project__card__desc-title {
+    font-family: 'DMBold';
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 54.68px;
+    color: #FFFFFF;
+}
+
+.project__card__desc-text {
+    font-family: 'DMRegular';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+    color: #FFFFFF;
+}
+
+.project__card__desc {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.project__card__desc-btn {
+    padding: 6px 14px;
+    max-width: 100px;
+    font-family: 'DMRegular';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.23px;
+    color: #FFFFFF;
+    background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    transition: all linear 0.3s;
+}
+
+.project__card__desc-btn:hover{
+    transform: scale(1.2);
+
+}

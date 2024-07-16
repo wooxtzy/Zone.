@@ -1,0 +1,74 @@
+.banner__desc-title {
+    font-family: 'DMBold';
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 84px;
+    letter-spacing: 0.02em;
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(89.83deg, #2563EB 0.11%, #D946EF 58.65%);
+    max-width: 600px;
+}
+
+.banner__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.banner__desc-text {
+    font-family: 'DMRegular';
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #E5E7EB;
+    max-width: 530px;
+}
+
+.banner__desc {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.banner__desc-btns {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.banner__desc-btn {
+    padding: 20px 40px;
+    outline: none;
+    border: none;
+    font-family: 'DMMedium';
+    font-size: 16px;
+    color: #E5E7EB;
+    font-weight: 500;
+    background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+    border-radius: 6px;
+    transition: all linear 0.3s;
+}
+
+.banner__desc-video {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    outline: none;
+    border: none;
+    font-family: 'DMMedium';
+    font-size: 16px;
+    font-weight: 500;
+    background: none;
+    color: #E5E7EB;
+    position: relative;
+    padding: 16px 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.banner__desc-btn:hover{
+    transform: scale(0.9);
+}

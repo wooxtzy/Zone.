@@ -1,0 +1,21 @@
+.card {
+    transform: translate3d(0, 100px, 0);
+    opacity: 0;
+    z-index: 0;
+}
+
+.active {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+    transition: all linear 0.3s;
+
+}
+
+.fade-top{
+    transform: translate3d(0, -200px, 0);
+    opacity: 0;
+    z-index: 0;
+    transition: all linear 0.3s;
+}
+
+

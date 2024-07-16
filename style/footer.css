@@ -1,0 +1,155 @@
+.footer {
+    margin-top: 98px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.footer__line {
+    opacity: 20%;
+    height: 1px;
+    background: #969696;
+    width: 100%;
+}
+
+.footer__main-list-item {
+
+    display: flex;
+    align-items: center;
+    font-family: 'Rubik';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.7px;
+    color: #fff;
+
+}
+
+.footer__main-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.logo {
+    margin-bottom: 5px;
+    gap: 8px;
+    max-width: 116px;
+    width: 100%;
+}
+
+.icons {
+    gap: 15px;
+    margin-top: 5px;
+}
+
+.footer__main-list-title {
+    font-family: 'DMMedium';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.footer__main-list-title a {
+    color: #FFFFFFCC;
+}
+
+.footer__main-list-item a {
+    color: #FFFFFFCC;
+    transition: all linear 0.3s;
+
+}
+
+.footer__main-list-item {
+    font-family: 'DMRegular';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    transition: all linear 0.3s;
+
+
+}
+
+.footer__main-lists {
+    display: flex;
+    align-items: start;
+    gap: 155px;
+}
+
+.footer__other__lists {
+    display: flex;
+    gap: 98px;
+    align-items: start;
+}
+
+.footer__lists {
+    display: flex;
+    gap: 42px;
+}
+
+.footer__other__lists-list__title {
+    font-family: 'DMMedium';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 40px;
+    /* margin-bottom: 5px; */
+    color: #FFFFFFCC;
+}
+
+.footer__other__lists-list__item a{
+    color: #FFFFFFCC;
+    transition: all linear 0.3s;
+
+}
+
+.footer__other__lists-list__item {
+    font-family: 'DMRegular';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    transition: all linear 0.3s;
+}
+
+.footer__other__lists-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info-bar__wrap {
+    padding: 33px 0 36px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-bar__text {
+    font-family: 'Rubik';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #FFFFFFCC;
+
+}
+
+.info-bar__list {
+    display: flex;
+    align-items: center;
+    gap: 54px;
+}
+
+.info-bar__list-item {
+    font-family: 'DMRegular';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #FFFFFFCC;
+}
+
+.footer__other__lists-list__item:hover a{
+    color: #fff;
+}
+
+.footer__main-list-item:hover a{
+    color: #fff;
+}
